@@ -1,310 +1,88 @@
-[18:43:08] [Server thread/INFO]: Starting minecraft server version 1.12
-[18:43:08] [Server thread/INFO]: Loading properties
-[18:43:08] [Server thread/INFO]: Default game type: SURVIVAL
-[18:43:08] [Server thread/INFO]: Generating keypair
-[18:43:08] [Server thread/INFO]: Starting Minecraft server on *:25565
-[18:43:08] [Server thread/INFO]: Using default channel type
-[18:43:08] [Server thread/INFO]: This server is running CraftBukkit version git-Bukkit-2c5c611 (MC: 1.12) (Implementing API version 1.12-R0.1-SNAPSHOT)
-[18:43:08] [Server thread/INFO]: [MassiveCore] Loading MassiveCore v2.11.0
-[18:43:08] [Server thread/INFO]: [Factions] Loading Factions v2.11.0
-[18:43:08] [Server thread/INFO]: [MassiveCore] Enabling MassiveCore v2.11.0
-[18:43:08] [Server thread/INFO]: [0;36;22m[[0;36;1mMassiveCore 2.11.0[0;36;22m] [0;33;1m=== ENABLE START ===[m
-[18:43:08] [Server thread/INFO]: [0;36;22m[[0;36;1mMassiveCore 2.11.0[0;36;22m] [0;33;1m[0;33;1mLoading Cachefile datas...[m
-[18:43:08] [Server thread/INFO]: [0;36;22m[[0;36;1mMassiveCore 2.11.0[0;36;22m] [0;33;1m[0;33;1mLoading Onlineplayer datas...[m
-[18:43:08] [Server thread/INFO]: [0;36;22m[[0;36;1mMassiveCore 2.11.0[0;36;22m] [0;33;1m[0;33;1mLoading Registry datas...[m
-[18:43:08] [Server thread/INFO]: [0;36;22m[[0;36;1mMassiveCore 2.11.0[0;36;22m] [0;33;1m[0;33;1mSaving Cachefile...[m
-[18:43:08] [Server thread/INFO]: [0;36;22m[[0;36;1mMassiveCore 2.11.0[0;36;22m] [0;33;1m[0;33;1mSetup of IdUtil took [0;35;1m10[0;33;1mms.[m
-[18:43:09] [Server thread/INFO]: [0;36;22m[[0;36;1mMassiveCore 2.11.0[0;36;22m] [0;33;1m[0;33;1mMixin [0;35;1mNmsPlayerInventoryCreate[0;33;1m set to [0;35;1mMinecraft 1.7.10+ [1_7_R4+][m
-[18:43:09] [Server thread/INFO]: [0;36;22m[[0;36;1mMassiveCore 2.11.0[0;36;22m] [0;33;1m[0;33;1mMixin [0;35;1mNmsBasics[0;33;1m set to [0;35;1mMinecraft 1.7.10+ [1_7_R4+][m
-[18:43:09] [Server thread/INFO]: [0;36;22m[[0;36;1mMassiveCore 2.11.0[0;36;22m] [0;33;1m[0;33;1mMixin [0;35;1mNmsBoard[0;33;1m set to [0;35;1mMinecraft 1.9.0+ [1_9_R1+][m
-[18:43:09] [Server thread/WARN]: java.lang.IllegalStateException: NoSuchMethodException: net.minecraft.server.v1_12_R1.PacketPlayOutChat.<init>(net.minecraft.server.v1_12_R1.IChatBaseComponent, byte)
-[18:43:09] [Server thread/WARN]: 	at com.massivecraft.massivecore.util.ReflectionUtil.asRuntimeException(ReflectionUtil.java:513)
-[18:43:09] [Server thread/WARN]: 	at com.massivecraft.massivecore.util.ReflectionUtil.getConstructor(ReflectionUtil.java:175)
-[18:43:09] [Server thread/WARN]: 	at com.massivecraft.massivecore.nms.NmsChatAbstract.setup(NmsChatAbstract.java:85)
-[18:43:09] [Server thread/WARN]: 	at com.massivecraft.massivecore.mixin.Mixin.<init>(Mixin.java:92)
-[18:43:09] [Server thread/WARN]: 	at com.massivecraft.massivecore.nms.NmsChat.<init>(NmsChat.java:10)
-[18:43:09] [Server thread/WARN]: 	at com.massivecraft.massivecore.nms.NmsChatAbstract.<init>(NmsChatAbstract.java:14)
-[18:43:09] [Server thread/WARN]: 	at com.massivecraft.massivecore.nms.NmsChat18R2P.<init>(NmsChat18R2P.java:6)
-[18:43:09] [Server thread/WARN]: 	at com.massivecraft.massivecore.nms.NmsChat18R2P.<clinit>(NmsChat18R2P.java:12)
-[18:43:09] [Server thread/WARN]: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-[18:43:09] [Server thread/WARN]: 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-[18:43:09] [Server thread/WARN]: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-[18:43:09] [Server thread/WARN]: 	at java.lang.reflect.Method.invoke(Method.java:498)
-[18:43:09] [Server thread/WARN]: 	at com.massivecraft.massivecore.util.ReflectionUtil.invokeMethod(ReflectionUtil.java:141)
-[18:43:09] [Server thread/WARN]: 	at com.massivecraft.massivecore.util.ReflectionUtil.invokeMethod(ReflectionUtil.java:157)
-[18:43:09] [Server thread/WARN]: 	at com.massivecraft.massivecore.util.ReflectionUtil.getSingletonInstance(ReflectionUtil.java:232)
-[18:43:09] [Server thread/WARN]: 	at com.massivecraft.massivecore.util.ReflectionUtil.getSingletonInstanceFirstCombatible(ReflectionUtil.java:244)
-[18:43:09] [Server thread/WARN]: 	at com.massivecraft.massivecore.mixin.Mixin.setActiveVerboose(Mixin.java:151)
-[18:43:09] [Server thread/WARN]: 	at com.massivecraft.massivecore.mixin.Mixin.setActive(Mixin.java:141)
-[18:43:09] [Server thread/WARN]: 	at com.massivecraft.massivecore.Engine.setActive(Engine.java:108)
-[18:43:09] [Server thread/WARN]: 	at com.massivecraft.massivecore.MassivePlugin.activateOne(MassivePlugin.java:248)
-[18:43:09] [Server thread/WARN]: 	at com.massivecraft.massivecore.MassivePlugin.activateOne(MassivePlugin.java:227)
-[18:43:09] [Server thread/WARN]: 	at com.massivecraft.massivecore.MassivePlugin.activateOne(MassivePlugin.java:227)
-[18:43:09] [Server thread/WARN]: 	at com.massivecraft.massivecore.MassivePlugin.activateOne(MassivePlugin.java:236)
-[18:43:09] [Server thread/WARN]: 	at com.massivecraft.massivecore.MassivePlugin.activate(MassivePlugin.java:212)
-[18:43:09] [Server thread/WARN]: 	at com.massivecraft.massivecore.MassivePlugin.activateAuto(MassivePlugin.java:322)
-[18:43:09] [Server thread/WARN]: 	at com.massivecraft.massivecore.MassiveCore.onEnableInner(MassiveCore.java:234)
-[18:43:09] [Server thread/WARN]: 	at com.massivecraft.massivecore.MassivePlugin.onEnable(MassivePlugin.java:82)
-[18:43:09] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:264)
-[18:43:09] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:329)
-[18:43:09] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:401)
-[18:43:09] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugin(CraftServer.java:360)
-[18:43:09] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugins(CraftServer.java:321)
-[18:43:09] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.DedicatedServer.init(DedicatedServer.java:189)
-[18:43:09] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:521)
-[18:43:09] [Server thread/WARN]: 	at java.lang.Thread.run(Thread.java:745)
-[18:43:09] [Server thread/INFO]: [0;36;22m[[0;36;1mMassiveCore 2.11.0[0;36;22m] [0;33;1m[0;33;1mMixin [0;35;1mNmsChat[0;33;1m set to [0;35;1mMinecraft 1.8.3+ [1_8_R2+][m
-[18:43:09] [Server thread/INFO]: [0;36;22m[[0;36;1mMassiveCore 2.11.0[0;36;22m] [0;33;1m[0;33;1mMixin [0;35;1mNmsItemStackCreate[0;33;1m set to [0;35;1mMinecraft 1.7.10+ [1_7_R4+][m
-[18:43:10] [Server thread/INFO]: [0;36;22m[[0;36;1mMassiveCore 2.11.0[0;36;22m] [0;33;1m[0;33;1mMixin [0;35;1mNmsPermissions[0;33;1m set to [0;35;1mMinecraft 1.7.10+ [1_7_R4+][m
-[18:43:10] [Server thread/INFO]: [0;36;22m[[0;36;1mMassiveCore 2.11.0[0;36;22m] [0;33;1m[0;33;1mMixin [0;35;1mNmsSkullMeta[0;33;1m set to [0;35;1mMinecraft 1.8.0+ [1_8_R1+][m
-[18:43:10] [Server thread/INFO]: [0;36;22m[[0;36;1mMassiveCore 2.11.0[0;36;22m] [0;33;1m[0;33;1mMixin [0;35;1mNmsEntityGet[0;33;1m set to [0;35;1mMinecraft 1.8.0+ [1_8_R1+][m
-[18:43:10] [Server thread/INFO]: [0;36;22m[[0;36;1mMassiveCore 2.11.0[0;36;22m] [0;33;1m[0;33;1mMixin [0;35;1mNmsEntityDamageEvent[0;33;1m set to [0;35;1mMinecraft 1.7.10+ [1_7_R4+][m
-[18:43:10] [Server thread/INFO]: [0;36;22m[[0;36;1mMassiveCore 2.11.0[0;36;22m] [0;33;1m[0;33;1mMixin [0;35;1mNmsItemStackTooltip[0;33;1m set to [0;35;1mMinecraft 1.8.0+ [1_8_R1+][m
-[18:43:10] [Server thread/INFO]: [0;36;22m[[0;36;1mMassiveCore 2.11.0[0;36;22m] [0;33;1m[0;32;1mIntegration Activated [0;35;1mIntegrationLiabilityAreaEffectCloud[m
-[18:43:10] [Server thread/INFO]: [0;36;22m[[0;36;1mMassiveCore 2.11.0[0;36;22m] [0;33;1m[0;33;1mMixin [0;35;1mMixinEvent[0;33;1m set to [0;35;1mDefault[m
-[18:43:10] [Server thread/INFO]: [0;36;22m[[0;36;1mMassiveCore 2.11.0[0;36;22m] [0;33;1m[0;33;1mMixin [0;35;1mMixinCommand[0;33;1m set to [0;35;1mDefault[m
-[18:43:10] [Server thread/INFO]: [0;36;22m[[0;36;1mMassiveCore 2.11.0[0;36;22m] [0;33;1m[0;33;1mMixin [0;35;1mMixinInventory[0;33;1m set to [0;35;1mDefault[m
-[18:43:10] [Server thread/INFO]: [0;36;22m[[0;36;1mMassiveCore 2.11.0[0;36;22m] [0;33;1m[0;33;1mMixin [0;35;1mMixinMessage[0;33;1m set to [0;35;1mDefault[m
-[18:43:10] [Server thread/INFO]: [0;36;22m[[0;36;1mMassiveCore 2.11.0[0;36;22m] [0;33;1m[0;33;1mMixin [0;35;1mMixinTeleport[0;33;1m set to [0;35;1mDefault[m
-[18:43:10] [Server thread/INFO]: [0;36;22m[[0;36;1mMassiveCore 2.11.0[0;36;22m] [0;33;1m[0;33;1mMixin [0;35;1mMixinVisibility[0;33;1m set to [0;35;1mDefault[m
-[18:43:10] [Server thread/INFO]: [0;36;22m[[0;36;1mMassiveCore 2.11.0[0;36;22m] [0;33;1m[0;33;1mMixin [0;35;1mMixinActionbar[0;33;1m set to [0;35;1mDefault[m
-[18:43:10] [Server thread/INFO]: [0;36;22m[[0;36;1mMassiveCore 2.11.0[0;36;22m] [0;33;1m[0;33;1mMixin [0;35;1mMixinLog[0;33;1m set to [0;35;1mDefault[m
-[18:43:10] [Server thread/INFO]: [0;36;22m[[0;36;1mMassiveCore 2.11.0[0;36;22m] [0;33;1m[0;33;1mMixin [0;35;1mMixinPlayed[0;33;1m set to [0;35;1mDefault[m
-[18:43:10] [Server thread/INFO]: [0;36;22m[[0;36;1mMassiveCore 2.11.0[0;36;22m] [0;33;1m[0;33;1mMixin [0;35;1mMixinActual[0;33;1m set to [0;35;1mDefault[m
-[18:43:10] [Server thread/INFO]: [0;36;22m[[0;36;1mMassiveCore 2.11.0[0;36;22m] [0;33;1m[0;33;1mMixin [0;35;1mMixinGamemode[0;33;1m set to [0;35;1mDefault[m
-[18:43:10] [Server thread/INFO]: [0;36;22m[[0;36;1mMassiveCore 2.11.0[0;36;22m] [0;33;1m[0;33;1mMixin [0;35;1mMixinMassiveCraftPremium[0;33;1m set to [0;35;1mDefault[m
-[18:43:10] [Server thread/INFO]: [0;36;22m[[0;36;1mMassiveCore 2.11.0[0;36;22m] [0;33;1m[0;33;1mMixin [0;35;1mMixinSenderPs[0;33;1m set to [0;35;1mDefault[m
-[18:43:10] [Server thread/INFO]: [0;36;22m[[0;36;1mMassiveCore 2.11.0[0;36;22m] [0;33;1m[0;33;1mMixin [0;35;1mMixinWorld[0;33;1m set to [0;35;1mDefault[m
-[18:43:10] [Server thread/INFO]: [0;36;22m[[0;36;1mMassiveCore 2.11.0[0;36;22m] [0;33;1m[0;33;1mMixin [0;35;1mMixinDisplayName[0;33;1m set to [0;35;1mDefault[m
-[18:43:10] [Server thread/INFO]: [0;36;22m[[0;36;1mMassiveCore 2.11.0[0;36;22m] [0;33;1m[0;33;1mMixin [0;35;1mMixinKick[0;33;1m set to [0;35;1mDefault[m
-[18:43:10] [Server thread/INFO]: [0;36;22m[[0;36;1mMassiveCore 2.11.0[0;36;22m] [0;33;1m[0;33;1mMixin [0;35;1mMixinModification[0;33;1m set to [0;35;1mDefault[m
-[18:43:10] [Server thread/INFO]: [0;36;22m[[0;36;1mMassiveCore 2.11.0[0;36;22m] [0;33;1m[0;33;1mMixin [0;35;1mMixinTitle[0;33;1m set to [0;35;1mDefault[m
-[18:43:10] [Server thread/INFO]: [0;36;22m[[0;36;1mMassiveCore 2.11.0[0;36;22m] [0;33;1m=== ENABLE [0;32;1mCOMPLETE [0;33;1m(Took [0;35;1m1376ms[0;33;1m) ===[m
-[18:43:10] [Server thread/INFO]: Preparing level "world"
-[18:43:10] [Server thread/INFO]: Preparing start region for level 0 (Seed: -2000974701260451713)
-[18:43:11] [Server thread/INFO]: Preparing start region for level 1 (Seed: -2000974701260451713)
-[18:43:11] [Server thread/INFO]: Preparing start region for level 2 (Seed: -2000974701260451713)
-[18:43:12] [Server thread/INFO]: [Factions] Enabling Factions v2.11.0
-[18:43:12] [Server thread/INFO]: [0;36;22m[[0;36;1mFactions 2.11.0[0;36;22m] [0;33;1m=== ENABLE START ===[m
-[18:43:12] [Server thread/INFO]: [0;36;22m[[0;36;1mFactions 2.11.0[0;36;22m] [0;33;1m[0;32;1mIntegration Activated [0;35;1mIntegrationV19[m
-[18:43:12] [Server thread/INFO]: [0;36;22m[[0;36;1mFactions 2.11.0[0;36;22m] [0;33;1m[0;32;1mIntegration Activated [0;35;1mIntegrationSpigot[m
-[18:43:12] [Server thread/INFO]: [0;36;22m[[0;36;1mFactions 2.11.0[0;36;22m] [0;33;1m[0;33;1mMixin [0;35;1mPowerMixin[0;33;1m set to [0;35;1mDefault[m
-[18:43:12] [Server thread/INFO]: [0;36;22m[[0;36;1mFactions 2.11.0[0;36;22m] [0;33;1m=== ENABLE [0;32;1mCOMPLETE [0;33;1m(Took [0;35;1m666ms[0;33;1m) ===[m
-[18:43:12] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[18:43:12] [Server thread/INFO]: Done (2.460s)! For help, type "help" or "?"
-[18:43:17] [Server thread/INFO]: [m
-[18:43:17] [Server thread/INFO]: [m[0;35;1m____----====[ [m[0;36;1mSponsored by ServerMiner[m[0;35;1m ]====----____[m
-[18:43:17] [Server thread/INFO]: [m[0;32;1mGet a [m[0;33;22mFREE 2GB RAM[m[0;32;1m Premium Minecraft Server at ServerMiner:[m
-[18:43:17] [Server thread/INFO]: [0;36;1mhttps://ServerMiner.com/free[m
-[18:43:17] [Server thread/INFO]: [m
-[18:43:17] [Server thread/INFO]: [0;32;1mFactions and MassiveCore is sponsored by ServerMiner.com![m
-[18:43:17] [Server thread/INFO]: [0;32;1mThey help us fund the development of new plugin features.[m
-[18:43:17] [Server thread/INFO]: [m
-[18:43:17] [Server thread/INFO]: [0;33;1mOnly server operators get this message, not regular players.[m
-[18:43:17] [Server thread/INFO]: [m[0;33;1mType [m[0;36;1m/mcore sponsor[m[0;33;1m to disable it.[m
-[18:43:17] [Server thread/INFO]: [m
-[18:59:13] [User Authenticator #1/INFO]: UUID of player EverythingLovely is 5e0779f7-8b33-4bc8-858d-539a1f3d085d
-[18:59:13] [Server thread/INFO]: EverythingLovely[/192.168.86.157:53428] logged in with entity id 242 at ([world]117.5, 68.0, -81.5)
-[18:59:33] [Server thread/INFO]: Unknown command. Type "help" for help.[m
-[18:59:37] [Server thread/INFO]: [0;33;1m--------- [0;37;1mHelp: Index [0;33;1m---------------------------[m
-[18:59:37] [Server thread/INFO]: [0;37;22mUse /help [n] to get page n of help.[m
-[18:59:37] [Server thread/INFO]: [0;33;22mAliases: [0;37;1mLists command aliases[m
-[18:59:37] [Server thread/INFO]: [0;33;22mBukkit: [0;37;1mAll commands for Bukkit[m
-[18:59:37] [Server thread/INFO]: [0;33;22mMinecraft: [0;37;1mAll commands for Minecraft[m
-[18:59:37] [Server thread/INFO]: [0;33;22m/advancement: [0;37;1mA Mojang provided command.[m
-[18:59:37] [Server thread/INFO]: [0;33;22m/ban: [0;37;1mA Mojang provided command.[m
-[18:59:37] [Server thread/INFO]: [0;33;22m/ban-ip: [0;37;1mA Mojang provided command.[m
-[18:59:37] [Server thread/INFO]: [0;33;22m/banlist: [0;37;1mA Mojang provided command.[m
-[18:59:37] [Server thread/INFO]: [0;33;22m/blockdata: [0;37;1mA Mojang provided command.[m
-[18:59:37] [Server thread/INFO]: [0;33;22m/clear: [0;37;1mA Mojang provided command.[m
-[18:59:37] [Server thread/INFO]: [0;33;22m/clone: [0;37;1mA Mojang provided command.[m
-[18:59:37] [Server thread/INFO]: [0;33;22m/debug: [0;37;1mA Mojang provided command.[m
-[18:59:37] [Server thread/INFO]: [0;33;22m/defaultgamemode: [0;37;1mA Mojang provided command.[m
-[18:59:37] [Server thread/INFO]: [0;33;22m/deop: [0;37;1mA Mojang provided command.[m
-[18:59:37] [Server thread/INFO]: [0;33;22m/difficulty: [0;37;1mA Mojang provided command.[m
-[18:59:37] [Server thread/INFO]: [0;33;22m/effect: [0;37;1mA Mojang provided command.[m
-[18:59:37] [Server thread/INFO]: [0;33;22m/enchant: [0;37;1mA Mojang provided command.[m
-[18:59:37] [Server thread/INFO]: [0;33;22m/entitydata: [0;37;1mA Mojang provided command.[m
-[18:59:37] [Server thread/INFO]: [0;33;22m/execute: [0;37;1mA Mojang provided command.[m
-[18:59:37] [Server thread/INFO]: [0;33;22m/fill: [0;37;1mA Mojang provided command.[m
-[18:59:37] [Server thread/INFO]: [0;33;22m/function: [0;37;1mA Mojang provided command.[m
-[18:59:37] [Server thread/INFO]: [0;33;22m/gamemode: [0;37;1mA Mojang provided command.[m
-[18:59:37] [Server thread/INFO]: [0;33;22m/gamerule: [0;37;1mA Mojang provided command.[m
-[18:59:37] [Server thread/INFO]: [0;33;22m/give: [0;37;1mA Mojang provided command.[m
-[18:59:37] [Server thread/INFO]: [0;33;22m/help: [0;37;1mShows the help menu[m
-[18:59:37] [Server thread/INFO]: [0;33;22m/kick: [0;37;1mA Mojang provided command.[m
-[18:59:37] [Server thread/INFO]: [0;33;22m/kill: [0;37;1mA Mojang provided command.[m
-[18:59:37] [Server thread/INFO]: [0;33;22m/list: [0;37;1mA Mojang provided command.[m
-[18:59:37] [Server thread/INFO]: [0;33;22m/locate: [0;37;1mA Mojang provided command.[m
-[18:59:37] [Server thread/INFO]: [0;33;22m/me: [0;37;1mA Mojang provided command.[m
-[18:59:37] [Server thread/INFO]: [0;33;22m/minecraft:help: [0;37;1mA Mojang provided command.[m
-[18:59:37] [Server thread/INFO]: [0;33;22m/minecraft:reload: [0;37;1mA Mojang provided command.[m
-[18:59:37] [Server thread/INFO]: [0;33;22m/minecraft:tell: [0;37;1mA Mojang provided command.[m
-[18:59:37] [Server thread/INFO]: [0;33;22m/op: [0;37;1mA Mojang provided command.[m
-[18:59:37] [Server thread/INFO]: [0;33;22m/pardon: [0;37;1mA Mojang provided command.[m
-[18:59:37] [Server thread/INFO]: [0;33;22m/pardon-ip: [0;37;1mA Mojang provided command.[m
-[18:59:37] [Server thread/INFO]: [0;33;22m/particle: [0;37;1mA Mojang provided command.[m
-[18:59:37] [Server thread/INFO]: [0;33;22m/playsound: [0;37;1mA Mojang provided command.[m
-[18:59:37] [Server thread/INFO]: [0;33;22m/plugins: [0;37;1mGets a list of plugins running on the server[m
-[18:59:37] [Server thread/INFO]: [0;33;22m/recipe: [0;37;1mA Mojang provided command.[m
-[18:59:37] [Server thread/INFO]: [0;33;22m/reload: [0;37;1mReloads the server configuration and plugins[m
-[18:59:37] [Server thread/INFO]: [0;33;22m/replaceitem: [0;37;1mA Mojang provided command.[m
-[18:59:37] [Server thread/INFO]: [0;33;22m/save-all: [0;37;1mA Mojang provided command.[m
-[18:59:37] [Server thread/INFO]: [0;33;22m/save-off: [0;37;1mA Mojang provided command.[m
-[18:59:37] [Server thread/INFO]: [0;33;22m/save-on: [0;37;1mA Mojang provided command.[m
-[18:59:37] [Server thread/INFO]: [0;33;22m/say: [0;37;1mA Mojang provided command.[m
-[18:59:37] [Server thread/INFO]: [0;33;22m/scoreboard: [0;37;1mA Mojang provided command.[m
-[18:59:37] [Server thread/INFO]: [0;33;22m/seed: [0;37;1mA Mojang provided command.[m
-[18:59:37] [Server thread/INFO]: [0;33;22m/setblock: [0;37;1mA Mojang provided command.[m
-[18:59:37] [Server thread/INFO]: [0;33;22m/setidletimeout: [0;37;1mA Mojang provided command.[m
-[18:59:37] [Server thread/INFO]: [0;33;22m/setworldspawn: [0;37;1mA Mojang provided command.[m
-[18:59:37] [Server thread/INFO]: [0;33;22m/spawnpoint: [0;37;1mA Mojang provided command.[m
-[18:59:37] [Server thread/INFO]: [0;33;22m/spreadplayers: [0;37;1mA Mojang provided command.[m
-[18:59:37] [Server thread/INFO]: [0;33;22m/stats: [0;37;1mA Mojang provided command.[m
-[18:59:37] [Server thread/INFO]: [0;33;22m/stop: [0;37;1mA Mojang provided command.[m
-[18:59:37] [Server thread/INFO]: [0;33;22m/stopsound: [0;37;1mA Mojang provided command.[m
-[18:59:37] [Server thread/INFO]: [0;33;22m/summon: [0;37;1mA Mojang provided command.[m
-[18:59:37] [Server thread/INFO]: [0;33;22m/teleport: [0;37;1mA Mojang provided command.[m
-[18:59:37] [Server thread/INFO]: [0;33;22m/tell: [0;37;1mA Mojang provided command.[m
-[18:59:37] [Server thread/INFO]: [0;33;22m/tellraw: [0;37;1mA Mojang provided command.[m
-[18:59:37] [Server thread/INFO]: [0;33;22m/testfor: [0;37;1mA Mojang provided command.[m
-[18:59:37] [Server thread/INFO]: [0;33;22m/testforblock: [0;37;1mA Mojang provided command.[m
-[18:59:37] [Server thread/INFO]: [0;33;22m/testforblocks: [0;37;1mA Mojang provided command.[m
-[18:59:37] [Server thread/INFO]: [0;33;22m/time: [0;37;1mA Mojang provided command.[m
-[18:59:37] [Server thread/INFO]: [0;33;22m/timings: [0;37;1mRecords timings for all plugin events[m
-[18:59:37] [Server thread/INFO]: [0;33;22m/title: [0;37;1mA Mojang provided command.[m
-[18:59:37] [Server thread/INFO]: [0;33;22m/toggledownfall: [0;37;1mA Mojang provided command.[m
-[18:59:37] [Server thread/INFO]: [0;33;22m/tp: [0;37;1mA Mojang provided command.[m
-[18:59:37] [Server thread/INFO]: [0;33;22m/trigger: [0;37;1mA Mojang provided command.[m
-[18:59:37] [Server thread/INFO]: [0;33;22m/version: [0;37;1mGets the version of this server including any plugins in use[m
-[18:59:37] [Server thread/INFO]: [0;33;22m/weather: [0;37;1mA Mojang provided command.[m
-[18:59:37] [Server thread/INFO]: [0;33;22m/whitelist: [0;37;1mA Mojang provided command.[m
-[18:59:37] [Server thread/INFO]: [0;33;22m/worldborder: [0;37;1mA Mojang provided command.[m
-[18:59:37] [Server thread/INFO]: [0;33;22m/xp: [0;37;1mA Mojang provided command.[m
-[19:00:08] [Server thread/INFO]: Unknown command. Type "help" for help.[m
-[19:00:17] [Server thread/INFO]: Unknown command. Type "help" for help.[m
-[19:00:19] [Server thread/INFO]: Unknown command. Type "help" for help.[m
-[19:00:21] [Server thread/INFO]: Unknown command. Type "help" for help.[m
-[19:00:23] [Server thread/INFO]: Usage: /op <player>
-[19:00:29] [Server thread/INFO]: Opped EverythingLovely
-[19:00:39] [Server thread/INFO]: EverythingLovely issued server command: /gamemode 0
-[19:00:39] [Server thread/INFO]: [EverythingLovely: Set own game mode to Survival Mode]
-[19:00:39] [Server thread/INFO]: Usage: /xp <amount> [player] OR /xp <amount>L [player]
-[19:00:42] [Netty Server IO #1/INFO]: <[0;32;1m[21m[m[0;32;1m[0;37;1mEverythingLovely> 1[m
-[19:00:46] [Server thread/INFO]: EverythingLovely issued server command: /gamemode 1
-[19:00:46] [Server thread/INFO]: [EverythingLovely: Set own game mode to Creative Mode]
-[19:00:49] [Server thread/INFO]: EverythingLovely issued server command: /time set 12
-[19:00:49] [Server thread/INFO]: [EverythingLovely: Set the time to 12]
-[19:00:51] [Server thread/INFO]: '9999999999999999999999' is not a valid number
-[19:00:58] [Server thread/INFO]: Given 999999 experience to EverythingLovely
-[19:01:04] [Server thread/INFO]: [0;33;1m--------- [0;37;1mHelp: Index [0;33;1m---------------------------[m
-[19:01:04] [Server thread/INFO]: [0;37;22mUse /help [n] to get page n of help.[m
-[19:01:04] [Server thread/INFO]: [0;33;22mAliases: [0;37;1mLists command aliases[m
-[19:01:04] [Server thread/INFO]: [0;33;22mBukkit: [0;37;1mAll commands for Bukkit[m
-[19:01:04] [Server thread/INFO]: [0;33;22mMinecraft: [0;37;1mAll commands for Minecraft[m
-[19:01:04] [Server thread/INFO]: [0;33;22m/advancement: [0;37;1mA Mojang provided command.[m
-[19:01:04] [Server thread/INFO]: [0;33;22m/ban: [0;37;1mA Mojang provided command.[m
-[19:01:04] [Server thread/INFO]: [0;33;22m/ban-ip: [0;37;1mA Mojang provided command.[m
-[19:01:04] [Server thread/INFO]: [0;33;22m/banlist: [0;37;1mA Mojang provided command.[m
-[19:01:04] [Server thread/INFO]: [0;33;22m/blockdata: [0;37;1mA Mojang provided command.[m
-[19:01:04] [Server thread/INFO]: [0;33;22m/clear: [0;37;1mA Mojang provided command.[m
-[19:01:04] [Server thread/INFO]: [0;33;22m/clone: [0;37;1mA Mojang provided command.[m
-[19:01:04] [Server thread/INFO]: [0;33;22m/debug: [0;37;1mA Mojang provided command.[m
-[19:01:04] [Server thread/INFO]: [0;33;22m/defaultgamemode: [0;37;1mA Mojang provided command.[m
-[19:01:04] [Server thread/INFO]: [0;33;22m/deop: [0;37;1mA Mojang provided command.[m
-[19:01:04] [Server thread/INFO]: [0;33;22m/difficulty: [0;37;1mA Mojang provided command.[m
-[19:01:04] [Server thread/INFO]: [0;33;22m/effect: [0;37;1mA Mojang provided command.[m
-[19:01:04] [Server thread/INFO]: [0;33;22m/enchant: [0;37;1mA Mojang provided command.[m
-[19:01:04] [Server thread/INFO]: [0;33;22m/entitydata: [0;37;1mA Mojang provided command.[m
-[19:01:04] [Server thread/INFO]: [0;33;22m/execute: [0;37;1mA Mojang provided command.[m
-[19:01:04] [Server thread/INFO]: [0;33;22m/fill: [0;37;1mA Mojang provided command.[m
-[19:01:04] [Server thread/INFO]: [0;33;22m/function: [0;37;1mA Mojang provided command.[m
-[19:01:04] [Server thread/INFO]: [0;33;22m/gamemode: [0;37;1mA Mojang provided command.[m
-[19:01:04] [Server thread/INFO]: [0;33;22m/gamerule: [0;37;1mA Mojang provided command.[m
-[19:01:04] [Server thread/INFO]: [0;33;22m/give: [0;37;1mA Mojang provided command.[m
-[19:01:04] [Server thread/INFO]: [0;33;22m/help: [0;37;1mShows the help menu[m
-[19:01:04] [Server thread/INFO]: [0;33;22m/kick: [0;37;1mA Mojang provided command.[m
-[19:01:04] [Server thread/INFO]: [0;33;22m/kill: [0;37;1mA Mojang provided command.[m
-[19:01:04] [Server thread/INFO]: [0;33;22m/list: [0;37;1mA Mojang provided command.[m
-[19:01:04] [Server thread/INFO]: [0;33;22m/locate: [0;37;1mA Mojang provided command.[m
-[19:01:04] [Server thread/INFO]: [0;33;22m/me: [0;37;1mA Mojang provided command.[m
-[19:01:04] [Server thread/INFO]: [0;33;22m/minecraft:help: [0;37;1mA Mojang provided command.[m
-[19:01:04] [Server thread/INFO]: [0;33;22m/minecraft:reload: [0;37;1mA Mojang provided command.[m
-[19:01:04] [Server thread/INFO]: [0;33;22m/minecraft:tell: [0;37;1mA Mojang provided command.[m
-[19:01:04] [Server thread/INFO]: [0;33;22m/op: [0;37;1mA Mojang provided command.[m
-[19:01:04] [Server thread/INFO]: [0;33;22m/pardon: [0;37;1mA Mojang provided command.[m
-[19:01:04] [Server thread/INFO]: [0;33;22m/pardon-ip: [0;37;1mA Mojang provided command.[m
-[19:01:04] [Server thread/INFO]: [0;33;22m/particle: [0;37;1mA Mojang provided command.[m
-[19:01:04] [Server thread/INFO]: [0;33;22m/playsound: [0;37;1mA Mojang provided command.[m
-[19:01:04] [Server thread/INFO]: [0;33;22m/plugins: [0;37;1mGets a list of plugins running on the server[m
-[19:01:04] [Server thread/INFO]: [0;33;22m/recipe: [0;37;1mA Mojang provided command.[m
-[19:01:04] [Server thread/INFO]: [0;33;22m/reload: [0;37;1mReloads the server configuration and plugins[m
-[19:01:04] [Server thread/INFO]: [0;33;22m/replaceitem: [0;37;1mA Mojang provided command.[m
-[19:01:04] [Server thread/INFO]: [0;33;22m/save-all: [0;37;1mA Mojang provided command.[m
-[19:01:04] [Server thread/INFO]: [0;33;22m/save-off: [0;37;1mA Mojang provided command.[m
-[19:01:04] [Server thread/INFO]: [0;33;22m/save-on: [0;37;1mA Mojang provided command.[m
-[19:01:04] [Server thread/INFO]: [0;33;22m/say: [0;37;1mA Mojang provided command.[m
-[19:01:04] [Server thread/INFO]: [0;33;22m/scoreboard: [0;37;1mA Mojang provided command.[m
-[19:01:04] [Server thread/INFO]: [0;33;22m/seed: [0;37;1mA Mojang provided command.[m
-[19:01:04] [Server thread/INFO]: [0;33;22m/setblock: [0;37;1mA Mojang provided command.[m
-[19:01:04] [Server thread/INFO]: [0;33;22m/setidletimeout: [0;37;1mA Mojang provided command.[m
-[19:01:04] [Server thread/INFO]: [0;33;22m/setworldspawn: [0;37;1mA Mojang provided command.[m
-[19:01:04] [Server thread/INFO]: [0;33;22m/spawnpoint: [0;37;1mA Mojang provided command.[m
-[19:01:04] [Server thread/INFO]: [0;33;22m/spreadplayers: [0;37;1mA Mojang provided command.[m
-[19:01:04] [Server thread/INFO]: [0;33;22m/stats: [0;37;1mA Mojang provided command.[m
-[19:01:04] [Server thread/INFO]: [0;33;22m/stop: [0;37;1mA Mojang provided command.[m
-[19:01:04] [Server thread/INFO]: [0;33;22m/stopsound: [0;37;1mA Mojang provided command.[m
-[19:01:04] [Server thread/INFO]: [0;33;22m/summon: [0;37;1mA Mojang provided command.[m
-[19:01:04] [Server thread/INFO]: [0;33;22m/teleport: [0;37;1mA Mojang provided command.[m
-[19:01:04] [Server thread/INFO]: [0;33;22m/tell: [0;37;1mA Mojang provided command.[m
-[19:01:04] [Server thread/INFO]: [0;33;22m/tellraw: [0;37;1mA Mojang provided command.[m
-[19:01:04] [Server thread/INFO]: [0;33;22m/testfor: [0;37;1mA Mojang provided command.[m
-[19:01:04] [Server thread/INFO]: [0;33;22m/testforblock: [0;37;1mA Mojang provided command.[m
-[19:01:04] [Server thread/INFO]: [0;33;22m/testforblocks: [0;37;1mA Mojang provided command.[m
-[19:01:04] [Server thread/INFO]: [0;33;22m/time: [0;37;1mA Mojang provided command.[m
-[19:01:04] [Server thread/INFO]: [0;33;22m/timings: [0;37;1mRecords timings for all plugin events[m
-[19:01:04] [Server thread/INFO]: [0;33;22m/title: [0;37;1mA Mojang provided command.[m
-[19:01:04] [Server thread/INFO]: [0;33;22m/toggledownfall: [0;37;1mA Mojang provided command.[m
-[19:01:04] [Server thread/INFO]: [0;33;22m/tp: [0;37;1mA Mojang provided command.[m
-[19:01:04] [Server thread/INFO]: [0;33;22m/trigger: [0;37;1mA Mojang provided command.[m
-[19:01:04] [Server thread/INFO]: [0;33;22m/version: [0;37;1mGets the version of this server including any plugins in use[m
-[19:01:04] [Server thread/INFO]: [0;33;22m/weather: [0;37;1mA Mojang provided command.[m
-[19:01:04] [Server thread/INFO]: [0;33;22m/whitelist: [0;37;1mA Mojang provided command.[m
-[19:01:04] [Server thread/INFO]: [0;33;22m/worldborder: [0;37;1mA Mojang provided command.[m
-[19:01:04] [Server thread/INFO]: [0;33;22m/xp: [0;37;1mA Mojang provided command.[m
-[19:01:08] [Server thread/INFO]: EverythingLovely issued server command: /gamemode 0
-[19:01:08] [Server thread/INFO]: [EverythingLovely: Set own game mode to Survival Mode]
-[19:01:10] [Server thread/INFO]: Usage: /tp [target player] <destination player> OR /tp [target player] <x> <y> <z> [<yaw> <pitch>]
-[19:01:29] [Server thread/INFO]: Entity '0,0,0' cannot be found
-[19:01:41] [Server thread/INFO]: Teleported EverythingLovely to 0.5, 0.0, 0.5
-[19:01:41] [Server thread/WARN]: EverythingLovely moved too quickly! -100.23690852828395,-67.62306073705722,155.13804737767217
-[19:01:46] [Server thread/INFO]: EverythingLovely fell out of the world
-[19:01:55] [Server thread/INFO]: EverythingLovely issued server command: /gamemode 1
-[19:01:55] [Server thread/INFO]: [EverythingLovely: Set own game mode to Creative Mode]
-[19:01:58] [Server thread/INFO]: Teleported EverythingLovely to 0.5, 0.0, 0.5
-[19:01:58] [Server thread/WARN]: EverythingLovely moved too quickly! -108.24137254664089,-70.86859856141189,97.11866527468617
-[19:02:26] [Server thread/INFO]: [Server] hello
-[19:02:34] [Netty Server IO #1/INFO]: <[0;32;1m[21m[m[0;32;1m[0;37;1mEverythingLovely> yo yo yo wassup ma boi[m
-[19:04:50] [Server thread/INFO]: EverythingLovely has made the advancement [Best Friends Forever]
-[19:05:10] [Server thread/WARN]: Horse moved wrongly!
-[19:05:10] [Server thread/WARN]: Horse moved wrongly!
-[19:07:46] [Server thread/INFO]: EverythingLovely has made the advancement [Stone Age]
-[19:08:51] [Server thread/INFO]: EverythingLovely issued server command: /gamemode 0
-[19:08:51] [Server thread/INFO]: [EverythingLovely: Set own game mode to Survival Mode]
-[19:09:01] [Server thread/INFO]: EverythingLovely issued server command: /gamemode 1
-[19:09:01] [Server thread/INFO]: [EverythingLovely: Set own game mode to Creative Mode]
-[19:10:12] [Netty Server IO #1/INFO]: <[0;32;1m[21m[m[0;32;1m[0;37;1mEverythingLovely> 2 things[m
-[19:10:56] [Server thread/INFO]: EverythingLovely issued server command: /TIME SET 12
-[19:11:03] [Server thread/INFO]: EverythingLovely issued server command: /time set 12
-[19:11:03] [Server thread/INFO]: [EverythingLovely: Set the time to 12]
-[19:13:15] [Server thread/INFO]: EverythingLovely issued server command: /f create Crapidoodle
-[19:13:15] [Server thread/INFO]: [0;36;22m[[0;36;1mFactions 2.11.0[0;36;22m] [0;33;1mEverythingLovely created a new faction: Crapidoodle[m
-[19:14:11] [Server thread/INFO]: EverythingLovely issued server command: /f show
-[19:14:15] [Server thread/INFO]: EverythingLovely issued server command: /f show
-[19:14:21] [Server thread/INFO]: EverythingLovely issued server command: /f show
-[19:14:32] [Server thread/INFO]: EverythingLovely issued server command: /f show
-[19:14:36] [Server thread/INFO]: EverythingLovely issued server command: /f faction
-[19:14:54] [Server thread/INFO]: EverythingLovely issued server command: /f show
-[19:14:58] [Server thread/INFO]: EverythingLovely issued server command: /f f
-[19:15:02] [Server thread/INFO]: EverythingLovely issued server command: /f who
-[19:15:07] [Server thread/INFO]: EverythingLovely issued server command: /f f
+[20:14:51] [Server thread/INFO]: Starting minecraft server version 1.12
+[20:14:51] [Server thread/INFO]: Loading properties
+[20:14:51] [Server thread/INFO]: Default game type: SURVIVAL
+[20:14:51] [Server thread/INFO]: Generating keypair
+[20:14:51] [Server thread/INFO]: Starting Minecraft server on *:25565
+[20:14:51] [Server thread/INFO]: Using default channel type
+[20:14:51] [Server thread/INFO]: This server is running CraftBukkit version git-Bukkit-2c5c611 (MC: 1.12) (Implementing API version 1.12-R0.1-SNAPSHOT)
+[20:14:52] [Server thread/INFO]: [MassiveCore] Loading MassiveCore v2.11.0
+[20:14:52] [Server thread/INFO]: [Factions] Loading Factions v2.11.0
+[20:14:52] [Server thread/INFO]: [MassiveCore] Enabling MassiveCore v2.11.0
+[20:14:52] [Server thread/INFO]: [0;36;22m[[0;36;1mMassiveCore 2.11.0[0;36;22m] [0;33;1m=== ENABLE START ===[m
+[20:14:52] [Server thread/INFO]: [0;36;22m[[0;36;1mMassiveCore 2.11.0[0;36;22m] [0;33;1m[0;33;1mLoading Cachefile datas...[m
+[20:14:52] [Server thread/INFO]: [0;36;22m[[0;36;1mMassiveCore 2.11.0[0;36;22m] [0;33;1m[0;33;1mLoading Onlineplayer datas...[m
+[20:14:52] [Server thread/INFO]: [0;36;22m[[0;36;1mMassiveCore 2.11.0[0;36;22m] [0;33;1m[0;33;1mLoading Registry datas...[m
+[20:14:52] [Server thread/INFO]: [0;36;22m[[0;36;1mMassiveCore 2.11.0[0;36;22m] [0;33;1m[0;33;1mSaving Cachefile...[m
+[20:14:52] [Server thread/INFO]: [0;36;22m[[0;36;1mMassiveCore 2.11.0[0;36;22m] [0;33;1m[0;33;1mSetup of IdUtil took [0;35;1m13[0;33;1mms.[m
+[20:14:53] [Server thread/INFO]: [0;36;22m[[0;36;1mMassiveCore 2.11.0[0;36;22m] [0;33;1m[0;33;1mMixin [0;35;1mNmsPlayerInventoryCreate[0;33;1m set to [0;35;1mMinecraft 1.7.10+ [1_7_R4+][m
+[20:14:53] [Server thread/INFO]: [0;36;22m[[0;36;1mMassiveCore 2.11.0[0;36;22m] [0;33;1m[0;33;1mMixin [0;35;1mNmsBasics[0;33;1m set to [0;35;1mMinecraft 1.7.10+ [1_7_R4+][m
+[20:14:53] [Server thread/INFO]: [0;36;22m[[0;36;1mMassiveCore 2.11.0[0;36;22m] [0;33;1m[0;33;1mMixin [0;35;1mNmsBoard[0;33;1m set to [0;35;1mMinecraft 1.9.0+ [1_9_R1+][m
+[20:14:53] [Server thread/WARN]: java.lang.IllegalStateException: NoSuchMethodException: net.minecraft.server.v1_12_R1.PacketPlayOutChat.<init>(net.minecraft.server.v1_12_R1.IChatBaseComponent, byte)
+[20:14:53] [Server thread/WARN]: 	at com.massivecraft.massivecore.util.ReflectionUtil.asRuntimeException(ReflectionUtil.java:513)
+[20:14:53] [Server thread/WARN]: 	at com.massivecraft.massivecore.util.ReflectionUtil.getConstructor(ReflectionUtil.java:175)
+[20:14:53] [Server thread/WARN]: 	at com.massivecraft.massivecore.nms.NmsChatAbstract.setup(NmsChatAbstract.java:85)
+[20:14:53] [Server thread/WARN]: 	at com.massivecraft.massivecore.mixin.Mixin.<init>(Mixin.java:92)
+[20:14:53] [Server thread/WARN]: 	at com.massivecraft.massivecore.nms.NmsChat.<init>(NmsChat.java:10)
+[20:14:53] [Server thread/WARN]: 	at com.massivecraft.massivecore.nms.NmsChatAbstract.<init>(NmsChatAbstract.java:14)
+[20:14:53] [Server thread/WARN]: 	at com.massivecraft.massivecore.nms.NmsChat18R2P.<init>(NmsChat18R2P.java:6)
+[20:14:53] [Server thread/WARN]: 	at com.massivecraft.massivecore.nms.NmsChat18R2P.<clinit>(NmsChat18R2P.java:12)
+[20:14:53] [Server thread/WARN]: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[20:14:53] [Server thread/WARN]: 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+[20:14:53] [Server thread/WARN]: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[20:14:53] [Server thread/WARN]: 	at java.lang.reflect.Method.invoke(Method.java:498)
+[20:14:53] [Server thread/WARN]: 	at com.massivecraft.massivecore.util.ReflectionUtil.invokeMethod(ReflectionUtil.java:141)
+[20:14:53] [Server thread/WARN]: 	at com.massivecraft.massivecore.util.ReflectionUtil.invokeMethod(ReflectionUtil.java:157)
+[20:14:53] [Server thread/WARN]: 	at com.massivecraft.massivecore.util.ReflectionUtil.getSingletonInstance(ReflectionUtil.java:232)
+[20:14:53] [Server thread/WARN]: 	at com.massivecraft.massivecore.util.ReflectionUtil.getSingletonInstanceFirstCombatible(ReflectionUtil.java:244)
+[20:14:53] [Server thread/WARN]: 	at com.massivecraft.massivecore.mixin.Mixin.setActiveVerboose(Mixin.java:151)
+[20:14:53] [Server thread/WARN]: 	at com.massivecraft.massivecore.mixin.Mixin.setActive(Mixin.java:141)
+[20:14:53] [Server thread/WARN]: 	at com.massivecraft.massivecore.Engine.setActive(Engine.java:108)
+[20:14:53] [Server thread/WARN]: 	at com.massivecraft.massivecore.MassivePlugin.activateOne(MassivePlugin.java:248)
+[20:14:53] [Server thread/WARN]: 	at com.massivecraft.massivecore.MassivePlugin.activateOne(MassivePlugin.java:227)
+[20:14:53] [Server thread/WARN]: 	at com.massivecraft.massivecore.MassivePlugin.activateOne(MassivePlugin.java:227)
+[20:14:53] [Server thread/WARN]: 	at com.massivecraft.massivecore.MassivePlugin.activateOne(MassivePlugin.java:236)
+[20:14:53] [Server thread/WARN]: 	at com.massivecraft.massivecore.MassivePlugin.activate(MassivePlugin.java:212)
+[20:14:53] [Server thread/WARN]: 	at com.massivecraft.massivecore.MassivePlugin.activateAuto(MassivePlugin.java:322)
+[20:14:53] [Server thread/WARN]: 	at com.massivecraft.massivecore.MassiveCore.onEnableInner(MassiveCore.java:234)
+[20:14:53] [Server thread/WARN]: 	at com.massivecraft.massivecore.MassivePlugin.onEnable(MassivePlugin.java:82)
+[20:14:53] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:264)
+[20:14:53] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:329)
+[20:14:53] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:401)
+[20:14:53] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugin(CraftServer.java:360)
+[20:14:53] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugins(CraftServer.java:321)
+[20:14:53] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.DedicatedServer.init(DedicatedServer.java:189)
+[20:14:53] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:521)
+[20:14:53] [Server thread/WARN]: 	at java.lang.Thread.run(Thread.java:745)
+[20:14:53] [Server thread/INFO]: [0;36;22m[[0;36;1mMassiveCore 2.11.0[0;36;22m] [0;33;1m[0;33;1mMixin [0;35;1mNmsChat[0;33;1m set to [0;35;1mMinecraft 1.8.3+ [1_8_R2+][m
+[20:14:53] [Server thread/INFO]: [0;36;22m[[0;36;1mMassiveCore 2.11.0[0;36;22m] [0;33;1m[0;33;1mMixin [0;35;1mNmsItemStackCreate[0;33;1m set to [0;35;1mMinecraft 1.7.10+ [1_7_R4+][m
+[20:14:53] [Server thread/INFO]: [0;36;22m[[0;36;1mMassiveCore 2.11.0[0;36;22m] [0;33;1m[0;33;1mMixin [0;35;1mNmsPermissions[0;33;1m set to [0;35;1mMinecraft 1.7.10+ [1_7_R4+][m
+[20:14:53] [Server thread/INFO]: [0;36;22m[[0;36;1mMassiveCore 2.11.0[0;36;22m] [0;33;1m[0;33;1mMixin [0;35;1mNmsSkullMeta[0;33;1m set to [0;35;1mMinecraft 1.8.0+ [1_8_R1+][m
+[20:14:53] [Server thread/INFO]: [0;36;22m[[0;36;1mMassiveCore 2.11.0[0;36;22m] [0;33;1m[0;33;1mMixin [0;35;1mNmsEntityGet[0;33;1m set to [0;35;1mMinecraft 1.8.0+ [1_8_R1+][m
+[20:14:53] [Server thread/INFO]: [0;36;22m[[0;36;1mMassiveCore 2.11.0[0;36;22m] [0;33;1m[0;33;1mMixin [0;35;1mNmsEntityDamageEvent[0;33;1m set to [0;35;1mMinecraft 1.7.10+ [1_7_R4+][m
+[20:14:53] [Server thread/INFO]: [0;36;22m[[0;36;1mMassiveCore 2.11.0[0;36;22m] [0;33;1m[0;33;1mMixin [0;35;1mNmsItemStackTooltip[0;33;1m set to [0;35;1mMinecraft 1.8.0+ [1_8_R1+][m
+[20:14:53] [Server thread/INFO]: [0;36;22m[[0;36;1mMassiveCore 2.11.0[0;36;22m] [0;33;1m[0;32;1mIntegration Activated [0;35;1mIntegrationLiabilityAreaEffectCloud[m
+[20:14:53] [Server thread/INFO]: [0;36;22m[[0;36;1mMassiveCore 2.11.0[0;36;22m] [0;33;1m[0;33;1mMixin [0;35;1mMixinEvent[0;33;1m set to [0;35;1mDefault[m
+[20:14:53] [Server thread/INFO]: [0;36;22m[[0;36;1mMassiveCore 2.11.0[0;36;22m] [0;33;1m[0;33;1mMixin [0;35;1mMixinCommand[0;33;1m set to [0;35;1mDefault[m
+[20:14:53] [Server thread/INFO]: [0;36;22m[[0;36;1mMassiveCore 2.11.0[0;36;22m] [0;33;1m[0;33;1mMixin [0;35;1mMixinInventory[0;33;1m set to [0;35;1mDefault[m
+[20:14:53] [Server thread/INFO]: [0;36;22m[[0;36;1mMassiveCore 2.11.0[0;36;22m] [0;33;1m[0;33;1mMixin [0;35;1mMixinMessage[0;33;1m set to [0;35;1mDefault[m
+[20:14:53] [Server thread/INFO]: [0;36;22m[[0;36;1mMassiveCore 2.11.0[0;36;22m] [0;33;1m[0;33;1mMixin [0;35;1mMixinTeleport[0;33;1m set to [0;35;1mDefault[m
+[20:14:53] [Server thread/INFO]: [0;36;22m[[0;36;1mMassiveCore 2.11.0[0;36;22m] [0;33;1m[0;33;1mMixin [0;35;1mMixinVisibility[0;33;1m set to [0;35;1mDefault[m
+[20:14:53] [Server thread/INFO]: [0;36;22m[[0;36;1mMassiveCore 2.11.0[0;36;22m] [0;33;1m[0;33;1mMixin [0;35;1mMixinActionbar[0;33;1m set to [0;35;1mDefault[m
+[20:14:53] [Server thread/INFO]: [0;36;22m[[0;36;1mMassiveCore 2.11.0[0;36;22m] [0;33;1m[0;33;1mMixin [0;35;1mMixinLog[0;33;1m set to [0;35;1mDefault[m
+[20:14:53] [Server thread/INFO]: [0;36;22m[[0;36;1mMassiveCore 2.11.0[0;36;22m] [0;33;1m[0;33;1mMixin [0;35;1mMixinPlayed[0;33;1m set to [0;35;1mDefault[m
+[20:14:53] [Server thread/INFO]: [0;36;22m[[0;36;1mMassiveCore 2.11.0[0;36;22m] [0;33;1m[0;33;1mMixin [0;35;1mMixinActual[0;33;1m set to [0;35;1mDefault[m
+[20:14:53] [Server thread/INFO]: [0;36;22m[[0;36;1mMassiveCore 2.11.0[0;36;22m] [0;33;1m[0;33;1mMixin [0;35;1mMixinGamemode[0;33;1m set to [0;35;1mDefault[m
+[20:14:53] [Server thread/INFO]: [0;36;22m[[0;36;1mMassiveCore 2.11.0[0;36;22m] [0;33;1m[0;33;1mMixin [0;35;1mMixinMassiveCraftPremium[0;33;1m set to [0;35;1mDefault[m
+[20:14:53] [Server thread/INFO]: [0;36;22m[[0;36;1mMassiveCore 2.11.0[0;36;22m] [0;33;1m[0;33;1mMixin [0;35;1mMixinSenderPs[0;33;1m set to [0;35;1mDefault[m
+[20:14:53] [Server thread/INFO]: [0;36;22m[[0;36;1mMassiveCore 2.11.0[0;36;22m] [0;33;1m[0;33;1mMixin [0;35;1mMixinWorld[0;33;1m set to [0;35;1mDefault[m
+[20:14:53] [Server thread/INFO]: [0;36;22m[[0;36;1mMassiveCore 2.11.0[0;36;22m] [0;33;1m[0;33;1mMixin [0;35;1mMixinDisplayName[0;33;1m set to [0;35;1mDefault[m
+[20:14:53] [Server thread/INFO]: [0;36;22m[[0;36;1mMassiveCore 2.11.0[0;36;22m] [0;33;1m[0;33;1mMixin [0;35;1mMixinKick[0;33;1m set to [0;35;1mDefault[m
+[20:14:53] [Server thread/INFO]: [0;36;22m[[0;36;1mMassiveCore 2.11.0[0;36;22m] [0;33;1m[0;33;1mMixin [0;35;1mMixinModification[0;33;1m set to [0;35;1mDefault[m
+[20:14:53] [Server thread/INFO]: [0;36;22m[[0;36;1mMassiveCore 2.11.0[0;36;22m] [0;33;1m[0;33;1mMixin [0;35;1mMixinTitle[0;33;1m set to [0;35;1mDefault[m
+[20:14:53] [Server thread/INFO]: [0;36;22m[[0;36;1mMassiveCore 2.11.0[0;36;22m] [0;33;1m=== ENABLE [0;32;1mCOMPLETE [0;33;1m(Took [0;35;1m1438ms[0;33;1m) ===[m
+[20:14:53] [Server thread/INFO]: Preparing level "world"
+[20:14:53] [Server thread/INFO]: Preparing start region for level 0 (Seed: -2000974701260451713)
+[20:14:54] [Server thread/INFO]: Preparing spawn area: 89%
+[20:14:54] [Server thread/INFO]: Preparing start region for level 1 (Seed: -2000974701260451713)
+[20:14:55] [Thread-3/INFO]: Stopping server
+[20:14:55] [Thread-3/INFO]: [0;36;22m[[0;36;1mMassiveCore 2.11.0[0;36;22m] [0;33;1m[0;31;1mIntegration Deactivated [0;35;1mIntegrationLiabilityAreaEffectCloud[m
