@@ -293,3 +293,7 @@
 [19:08:51] [Server thread/INFO]: [EverythingLovely: Set own game mode to Survival Mode]
 [19:09:01] [Server thread/INFO]: EverythingLovely issued server command: /gamemode 1
 [19:09:01] [Server thread/INFO]: [EverythingLovely: Set own game mode to Creative Mode]
+[19:10:12] [Netty Server IO #1/INFO]: <[0;32;1m[21m[m[0;32;1m[0;37;1mEverythingLovely> 2 things[m
+[19:10:56] [Server thread/INFO]: EverythingLovely issued server command: /TIME SET 12
+[19:11:03] [Server thread/INFO]: EverythingLovely issued server command: /time set 12
+[19:11:03] [Server thread/INFO]: [EverythingLovely: Set the time to 12]
