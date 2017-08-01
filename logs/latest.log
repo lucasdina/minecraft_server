@@ -289,3 +289,7 @@
 [19:05:10] [Server thread/WARN]: Horse moved wrongly!
 [19:05:10] [Server thread/WARN]: Horse moved wrongly!
 [19:07:46] [Server thread/INFO]: EverythingLovely has made the advancement [Stone Age]
+[19:08:51] [Server thread/INFO]: EverythingLovely issued server command: /gamemode 0
+[19:08:51] [Server thread/INFO]: [EverythingLovely: Set own game mode to Survival Mode]
+[19:09:01] [Server thread/INFO]: EverythingLovely issued server command: /gamemode 1
+[19:09:01] [Server thread/INFO]: [EverythingLovely: Set own game mode to Creative Mode]
