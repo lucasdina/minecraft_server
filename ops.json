@@ -1,1 +1,8 @@
-[]
+[
+  {
+    "uuid": "5e0779f7-8b33-4bc8-858d-539a1f3d085d",
+    "name": "EverythingLovely",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  }
+]
