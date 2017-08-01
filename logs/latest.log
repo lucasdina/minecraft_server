@@ -1,0 +1,23 @@
+[18:38:30] [Server thread/INFO]: Starting minecraft server version 1.12
+[18:38:30] [Server thread/INFO]: Loading properties
+[18:38:30] [Server thread/INFO]: Default game type: SURVIVAL
+[18:38:30] [Server thread/INFO]: Generating keypair
+[18:38:31] [Server thread/INFO]: Starting Minecraft server on *:25565
+[18:38:31] [Server thread/INFO]: Using default channel type
+[18:38:31] [Server thread/INFO]: This server is running CraftBukkit version git-Bukkit-2c5c611 (MC: 1.12) (Implementing API version 1.12-R0.1-SNAPSHOT)
+[18:38:31] [Server thread/INFO]: Preparing level "world"
+[18:38:32] [Server thread/INFO]: Preparing start region for level 0 (Seed: -2000974701260451713)
+[18:38:33] [Server thread/INFO]: Preparing spawn area: 13%
+[18:38:34] [Server thread/INFO]: Preparing spawn area: 28%
+[18:38:35] [Server thread/INFO]: Preparing spawn area: 43%
+[18:38:36] [Server thread/INFO]: Preparing spawn area: 62%
+[18:38:37] [Server thread/INFO]: Preparing spawn area: 82%
+[18:38:38] [Server thread/INFO]: Preparing spawn area: 98%
+[18:38:38] [Server thread/INFO]: Preparing start region for level 1 (Seed: -2000974701260451713)
+[18:38:39] [Server thread/INFO]: Preparing spawn area: 29%
+[18:38:40] [Server thread/INFO]: Preparing spawn area: 54%
+[18:38:41] [Server thread/INFO]: Preparing spawn area: 78%
+[18:38:42] [Server thread/INFO]: Preparing start region for level 2 (Seed: -2000974701260451713)
+[18:38:43] [Server thread/INFO]: Preparing spawn area: 76%
+[18:38:43] [Server thread/INFO]: Done (12.165s)! For help, type "help" or "?"
+[18:39:21] [Thread-3/INFO]: Stopping server
